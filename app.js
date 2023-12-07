@@ -10,9 +10,9 @@ const themeIcon = document.querySelector('.theme');
 themeIcon.addEventListener('click',()=>{
     document.body.classList.toggle('light')
     if(document.body.classList.contains('light')){
-        themeIcon.src = 'images/icon-moon.svg'
+        themeIcon.src = 'assets/icon-moon.svg'
     }else{
-        themeIcon.src = 'images/icon-sun.svg'
+        themeIcon.src = 'assets/icon-sun.svg'
     }
 })
 
